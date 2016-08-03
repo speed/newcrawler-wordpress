@@ -9,7 +9,7 @@
   Author URI: http://www.newcrawler.com
   License: GPL
  */
-define('TA_PATH', WP_PLUGIN_DIR . '/targetany');
+define('TA_PATH', WP_PLUGIN_DIR . '/newcrawler-wordpress-master');
 
 include TA_PATH . '/ta-functions.php';
 
@@ -27,7 +27,7 @@ if (is_admin()) {
 
 function ta_menu() {
     if (function_exists('add_menu_page')) {
-        add_menu_page('鸟巢采集器', '鸟巢采集器', 'administrator', 'targetany/ta-article-setting.php', '', 'dashicons-share-alt');
+        add_menu_page('鸟巢采集器', '鸟巢采集器', 'administrator', 'newcrawler-wordpress-master/ta-article-setting.php', '', 'dashicons-share-alt');
     }
 }
 

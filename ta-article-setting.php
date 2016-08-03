@@ -32,7 +32,7 @@ if (isset($_POST['submit1']) && $_POST['submit1'] != '') {
     <br/>
 
 
-    <form id="myform" method="post" action="admin.php?page=targetany/ta-article-setting.php">
+    <form id="myform" method="post" action="admin.php?page=newcrawler-wordpress-master/ta-article-setting.php">
         <div class="postbox">
             <h3 class="hndle" style="cursor:pointer;">发布设置</h3>
             <div class="inside">
