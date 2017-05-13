@@ -2,6 +2,7 @@
 NewCrawler Wordpress Plugin
 
 1.Download Plugin
+
 Clone or download > Download ZIP
 
 2.Install Plugin
